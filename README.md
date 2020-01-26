@@ -4,7 +4,7 @@ Toolchain for cross-compiling from GNU Linux host x86_64 to FreeBSD x86_64 in a 
 Build command to create Docker container:
 
     $ docker build -t peroxz:toolchain-linux-freebsd .
-Run command to lauch Docker container:
+Run command to launch Docker container:
 
      $ docker run -ti --rm peroxz:toolchain-linux-freebsd /bin/bash
 Compile C code:
